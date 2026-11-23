@@ -54,6 +54,8 @@ evidence_level: single-or-two-slide-observation
 
 ## CASE-0017 词云信息图（Word Cloud Infographic）
 
+目录入口见 [17 词云信息图](17-词云信息图-Word-Cloud-Infographic.md)。
+
 > **案例状态：待图像核验。** 用户于 2026-11-23 指定加入“17 词云信息图”，但本轮未附该作品图片、原始语料或词频表。下面是研究用的 A–E **分析框架**，不是对某张具体作品的实证观察。本小节就是 CASE-0017 的案例记录位置，后续原位更新，不新建 `CASE-0017.md`。
 
 ### 0. 案例元数据

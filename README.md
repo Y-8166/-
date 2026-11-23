@@ -30,6 +30,7 @@
 - [混合型信息图形 Mixed Charts](02-信息图形类型案例/01-混合型信息图形-Mixed-Charts.md)
 - [文字型 / 列表型 Informational / List Infographics](02-信息图形类型案例/02-文字型与列表型信息图形-Informational-List.md)
 - [时间轴型 Timeline Infographics](02-信息图形类型案例/03-时间轴型信息图形-Timeline.md)
+- [17 词云信息图 Word Cloud Infographic](02-信息图形类型案例/17-词云信息图-Word-Cloud-Infographic.md)（CASE-0017）
 - [案例索引](02-信息图形类型案例/案例索引.md)、[案例分析模板](02-信息图形类型案例/案例分析模板.md)、[案例记录规范](02-信息图形类型案例/案例记录/README.md)
 
 ## 信息可视化风格研究
