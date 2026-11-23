@@ -1,4 +1,4 @@
-# ISOTYPE｜基础设计方法
+# 18 ISOTYPE｜基础设计方法
 
 **方法标签**　`ISOTYPE`
 
