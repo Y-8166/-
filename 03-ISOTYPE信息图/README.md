@@ -2,7 +2,7 @@
 
 **方法标签**　`ISOTYPE`
 
-ISOTYPE（International System of Typographic Picture Education）是一套用图形组织信息、辅助公众理解的视觉教育方法。在本仓库，它作为**基础设计方法标签**，可随案例的表现类型一起记录。作品可以是[比较型](../02-信息图形类型案例/06-比较型-Comparison.md)、[单一图表型](../02-信息图形类型案例/10-单一图表型-Single-Chart.md)或[混合型](../02-信息图形类型案例/01-混合型信息图形-Mixed-Charts.md)，其中的图画统计或解释图可以采用 ISOTYPE 方法。
+ISOTYPE（International System of Typographic Picture Education）是一套用图形组织信息、辅助公众理解的视觉教育方法。在本仓库，它作为**基础设计方法标签**，可随案例的表现类型一起记录。作品可以是[比较型](../02-信息图形类型案例/06-比较型-Comparison/00-标签说明.md)、[单一图表型](../02-信息图形类型案例/10-单一图表型-Single-Chart/00-标签说明.md)或[混合型](../02-信息图形类型案例/01-混合型信息图形-Mixed-Charts/00-标签说明.md)，其中的图画统计或解释图可以采用 ISOTYPE 方法。
 
 ## 由来
 

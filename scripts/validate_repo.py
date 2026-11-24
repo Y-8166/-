@@ -52,12 +52,27 @@ for f in files:
         elif not target.exists():
             issues.append(f'broken link: {f.relative_to(ROOT)} -> {link}')
 
-for needed in ('01-混合型信息图形-Mixed-Charts.md', '02-文字型与列表型信息图形-Informational-List.md', '03-时间轴型信息图形-Timeline.md', '案例索引.md', '案例分析模板.md'):
-    if not (CASE/needed).is_file():
+label_dirs = sorted(
+    path for path in CASE.glob('[0-9][0-9]-*')
+    if path.is_dir() and re.fullmatch(r'\d{2}-.+', path.name)
+)
+expected_label_ids = [f'{number:02d}' for number in range(1, 18)]
+label_ids = [path.name[:2] for path in label_dirs]
+if label_ids != expected_label_ids:
+    issues.append(f'02/ expected one label directory for each number 01–17, got {", ".join(label_ids)}')
+
+for label_dir in label_dirs:
+    for needed in ('00-标签说明.md', '案例/README.md'):
+        if not (label_dir / needed).is_file():
+            location = (label_dir / needed).relative_to(ROOT)
+            issues.append(f'missing 02/ label document: {location}')
+
+for needed in ('README.md', '案例索引.md', '案例分析模板.md'):
+    if not (CASE / needed).is_file():
         issues.append(f'missing 02/ document: {needed}')
 
 if issues:
     for i in issues:
         print('ERROR:',i)
     sys.exit(1)
-print(f'OK: {len(files)} markdown documents, {len(logic_files)} logic definitions, no broken local links, no images in 01/.')
+print(f'OK: {len(files)} markdown documents, {len(logic_files)} logic definitions, {len(label_dirs)} case labels, no broken local links, no images in 01/.')
